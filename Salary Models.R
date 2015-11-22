@@ -166,6 +166,7 @@ lines(predict(polypre), col="blue", lwd=0.5)
 lines(predict(polypost), col="red", lwd=0.5)
 
 #####Looking at escalator clauses
+
 #Year 1 to 2 Escalator
 mean(Year2[CBA==0]/(Year1[CBA==0]+.000001))
 mean(Year2[CBA==1]/(Year1[CBA==1]+.000001))
